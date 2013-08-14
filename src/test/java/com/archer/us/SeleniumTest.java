@@ -1,21 +1,30 @@
 package com.archer.us;
 
-import java.util.List;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.archer.us.service.SearchService;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = { "/root-context.xml" })
 public class SeleniumTest {
 
+	@Autowired
+	SearchService ss;
+	
 	@Test
 	public void test() {
 		WebDriver driver = new FirefoxDriver();
@@ -31,12 +40,8 @@ public class SeleniumTest {
 				return d.getTitle().toLowerCase().startsWith("seattle roofing");
 			}
 		});
-
-		// Should see: "cheese! - Google Search"
 		System.out.println("Page title is: " + driver.getTitle());
 	//	System.out.println(driver.getPageSource());
-		
-		
 		Document doc = Jsoup.parse(driver.getPageSource());
 		Elements links = doc.select("a[href]");
 		 for (Element link : links) {
@@ -45,13 +50,15 @@ public class SeleniumTest {
 			 System.out.println(driver.getCurrentUrl()+"/n");
 			 System.out.println(driver.getTitle()+"/n");
 	        }
-//         List<WebElement> aList=driver.findElements(By.linkText("http"));
-//        for(WebElement we:aList){
-//        	System.out.println(we.getText()+"\n");
-//        	
-//        }
 		// Close the browser
 		driver.quit();
 	}
+	
+	@Test
+	public void searchTest(){
+		ss.doRecursiveSearch("seattle roofing");
+		
+	}
+	
 
 }
