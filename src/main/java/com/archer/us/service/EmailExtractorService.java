@@ -1,8 +1,10 @@
 package com.archer.us.service;
 
-import com.archer.us.spider.ConnectionFactory;
 import com.archer.us.spider.ThreadPool;
-import org.jsoup.nodes.Document;
+import org.apache.commons.io.IOUtils;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -35,13 +37,16 @@ public class EmailExtractorService {
             System.out.println(url);
         }
         List<Future<List<String>>> futures = new ArrayList<>();
+        final DefaultHttpClient httpClient = new DefaultHttpClient();
         for (final String url : urls) {
             Future<List<String>> future = ThreadPool.execute(new Callable<List<String>>() {
                 public List<String> call() {
                     List<String> emails = new ArrayList<>();
+                    HttpGet getRequest = new HttpGet(url);
                     try {
-                        Document document = ConnectionFactory.getConnection(url, 60000).get();
-                        Matcher matcher = pattern.matcher(document.toString());
+                        HttpResponse response = httpClient.execute(getRequest);
+                        String html = IOUtils.toString(response.getEntity().getContent());
+                        Matcher matcher = pattern.matcher(html);
                         while (matcher.find()) {
                             String email = matcher.group(0);
                             emails.add(email);
@@ -56,14 +61,15 @@ public class EmailExtractorService {
             futures.add(future);
         }
         Set<String> emails = new HashSet<>();
+        int index = 0;
         for (Future<List<String>> future : futures) {
+            logger.debug("Executing thread {}", index);
             try {
                 emails.addAll(future.get());
             } catch (InterruptedException | ExecutionException e) {
                 logger.error("Extract email failure, due to: ", e);
             }
         }
-        ThreadPool.shutdown();
         return emails;
     }
 }
