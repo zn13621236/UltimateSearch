@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -24,8 +23,17 @@ public class SearchTest {
 
     @Test
     public void test() {
-//        Set<String> urls = bingSearchService.search("seattle roofing", 3);
-        System.out.println(emailExtractorService.extractEmail("http://www.seattle-roofing.com/"));
+        Set<String> urls = bingSearchService.search("seattle roofing", 3);
+        System.out.println(emailExtractorService.extractEmail(urls));
+//        extractEmail("a info@real.com b");
+    }
+
+    private void extractEmail(String url) {
+        Matcher matcher = Pattern.compile("([\\w\\-]([\\.\\w])+[\\w]+@([\\w\\-]+\\.)+[A-Za-z]{2,4})").matcher(url);
+        while (matcher.find()) {
+            String email = matcher.group(0);
+            System.out.println(email);
+        }
     }
 
 }

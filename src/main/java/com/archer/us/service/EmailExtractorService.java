@@ -1,17 +1,21 @@
 package com.archer.us.service;
 
-import org.jsoup.Jsoup;
+import com.archer.us.spider.ConnectionFactory;
+import com.archer.us.spider.ThreadPool;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -22,44 +26,44 @@ import java.util.regex.Pattern;
 public class EmailExtractorService {
     private static final Logger logger = LoggerFactory.getLogger(EmailExtractorService.class);
     private static final String regex = "([\\w\\-]([\\.\\w])+[\\w]+@([\\w\\-]+\\.)+[A-Za-z]{2,4})";
-    public static final Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
+    private static final Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
     public Set<String> extractEmail(Set<String> urls) {
         if (CollectionUtils.isEmpty(urls))
             return null;
-        Set<String> emails = new HashSet<>();
         for (String url : urls) {
             System.out.println(url);
         }
-        for (String url : urls) {
-            try {
-                Document document = Jsoup.connect(url).get();
-                Elements elements = document.getElementsMatchingText(regex);
-                for (Element element : elements) {
-                    System.out.println(element.text());
+        List<Future<List<String>>> futures = new ArrayList<>();
+        for (final String url : urls) {
+            Future<List<String>> future = ThreadPool.execute(new Callable<List<String>>() {
+                public List<String> call() {
+                    List<String> emails = new ArrayList<>();
+                    try {
+                        Document document = ConnectionFactory.getConnection(url, 60000).get();
+                        Matcher matcher = pattern.matcher(document.toString());
+                        while (matcher.find()) {
+                            String email = matcher.group(0);
+                            emails.add(email);
+                            logger.debug(email);
+                        }
+                    } catch (IOException e) {
+                        logger.error(String.format("Can't connect %s, due to: ", url), e);
+                    }
+                    return emails;
                 }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            });
+            futures.add(future);
         }
-        return emails;
-    }
-
-    public Set<String> extractEmail(String url) {
         Set<String> emails = new HashSet<>();
-        try {
-            Document document = Jsoup.connect(url).get();
-            String html = document.toString();
-
-            Matcher matcher = pattern.matcher(html);
-            while (matcher.find()) {
-                String email = matcher.group(0);
-                System.out.println(email);
-                emails.add(email);
+        for (Future<List<String>> future : futures) {
+            try {
+                emails.addAll(future.get());
+            } catch (InterruptedException | ExecutionException e) {
+                logger.error("Extract email failure, due to: ", e);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
         }
+        ThreadPool.shutdown();
         return emails;
     }
 }
