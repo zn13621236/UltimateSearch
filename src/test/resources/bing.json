@@ -1,0 +1,555 @@
+{"d": {
+    "results": [
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=0&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "138f1dec-eab8-44a8-8a48-121a9b801480",
+            "Title": "Xbox - Xbox.com",
+            "Description": "Visit Xbox.com for information about Xbox One, Xbox 360, Xbox Live, games, TV, movies, music, sports and more.",
+            "DisplayUrl": "www.xbox.com",
+            "Url": "http://www.xbox.com/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=1&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "d8f6d298-59c5-4649-be6b-212977445ef3",
+            "Title": "Xbox - Wikipedia, the free encyclopedia",
+            "Description": "The Xbox (sometimes stylized as XBOX) is a video gaming brand created by Microsoft. It includes a series of video game consoles developed by Microsoft ...",
+            "DisplayUrl": "en.wikipedia.org/wiki/Xbox",
+            "Url": "http://en.wikipedia.org/wiki/Xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=2&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "860e5bd2-359f-4e60-870f-05da827ca2d0",
+            "Title": "Home - Xbox.com",
+            "Description": "Be a part of Xbox Social. Whether you\u0027re on your computer, your phone or your console, Xbox Social is your connection to the Xbox LIVE community.",
+            "DisplayUrl": "https://live.xbox.com",
+            "Url": "https://live.xbox.com/Home"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=3&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "e770f9be-e7dc-4ac9-a59c-fcd080f113bc",
+            "Title": "Amazon.com: Xbox - More Systems: Video Games: Games, Hardware & More",
+            "Description": "Online shopping for Xbox More Systems from a great selection of Video Games; Games, Hardware & more at everyday low prices.",
+            "DisplayUrl": "www.amazon.com/Xbox-Games/b?ie=UTF8&node=537504",
+            "Url": "http://www.amazon.com/Xbox-Games/b?ie=UTF8&node=537504"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=4&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "cf762507-932f-4df2-9fc5-a2699a952f2c",
+            "Title": "Xbox (console) - Wikipedia, the free encyclopedia",
+            "Description": "The Xbox is a video game console manufactured by Microsoft. It was released on November 15, 2001, in North America, followed by Australia and Europe in ...",
+            "DisplayUrl": "en.wikipedia.org/wiki/Xbox_(console)",
+            "Url": "http://en.wikipedia.org/wiki/Xbox_(console)"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=5&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "c603ef85-fcb8-4ded-80e8-3d2c16d76aa3",
+            "Title": "Welcome to Xbox Support - Xbox.com",
+            "Description": "Xbox Support offers help and support on Xbox 360, Xbox LIVE, Kinect, and more. Join the Xbox Support community to get expert advice and customer service.",
+            "DisplayUrl": "support.xbox.com/en-us",
+            "Url": "http://support.xbox.com/en-us/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=6&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "0bdf3ae3-ca29-4bcd-ae0c-20bfddc6e4d6",
+            "Title": "Xbox 360 Achievements, News, Reviews, Guides & Forums at ...",
+            "Description": "A complete one-stop shop of everything Xbox 360. Offering up-to-date Xbox 360 achievements, news, reviews, achievement guides, previews, interviews, competitions and ...",
+            "DisplayUrl": "www.xbox360achievements.org",
+            "Url": "http://www.xbox360achievements.org/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=7&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "3ef511a6-ee67-42ff-a390-e7662b3c437d",
+            "Title": "xbox | eBay - Electronics, Cars, Fashion, Collectibles, Coupons ...",
+            "Description": "Find great deals on eBay for xbox and xbox 360. Shop with confidence.",
+            "DisplayUrl": "www.ebay.com/sch/i.html?_nkw=xbox",
+            "Url": "http://www.ebay.com/sch/i.html?_nkw=xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=8&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "69cf2e72-b26e-414f-b5cb-e2a463fac888",
+            "Title": "Xbox 360 Games, New, Used & Pre-Order + Xbox 360 Accessories ...",
+            "Description": "Buy the latest Xbox 360 games or choose from a massive selection of used Xbox 360 games + preorder and save money. Find Xbox 360 game release dates, bestsellers ...",
+            "DisplayUrl": "www.gamestop.com/xbox360",
+            "Url": "http://www.gamestop.com/xbox360"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=9&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "e321d113-495d-47cd-9a1d-c2faf0b6f84a",
+            "Title": "Xbox 360 Games, Accessories, Consoles, Live and Kinect - Walmart.com",
+            "Description": "Shop Xbox 360 games, consoles, Xbox Kinect, Xbox Live and a variety of accessories. Find Xbox 360 games at everyday low prices, at Walmart.com.",
+            "DisplayUrl": "www.walmart.com/cp/Xbox-360/482412",
+            "Url": "http://www.walmart.com/cp/Xbox-360/482412"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=10&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "9f65d6c1-d4ba-41ba-a165-93245087d4cd",
+            "Title": "Xbox 360 Consoles: Free Shipping - Best Buy",
+            "Description": "Free shipping on Xbox 360 consoles at Best Buy. Choose from our online selection of new and refurbished Xbox 360 consoles and gaming hardware.",
+            "DisplayUrl": "www.bestbuy.com/site/Xbox-360/Xbox-360-Hardware-Console/abcat...",
+            "Url": "http://www.bestbuy.com/site/Xbox-360/Xbox-360-Hardware-Console/abcat0701001.c?id=abcat0701001"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=11&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "263691c9-4a95-4615-ad7d-ed3726c32670",
+            "Title": "Xbox 360 Games - EA",
+            "Description": "Electronic Arts offers the most complete catalog of video games for the Xbox 360 platform including Mass Effect 3 and Battlefield 3.",
+            "DisplayUrl": "www.ea.com/xbox-360",
+            "Url": "http://www.ea.com/xbox-360"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=12&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "7400c9a2-c1e2-4fb4-918e-d14032e4f11e",
+            "Title": "Xbox Games - Xbox Accessories | GameStop",
+            "Description": "Buy Xbox games and accessories at GameStop. Shop our huge selection of Xbox games and accessories.",
+            "DisplayUrl": "www.gamestop.com/browse/xbox?nav=1389",
+            "Url": "http://www.gamestop.com/browse/xbox?nav=1389"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=13&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "d6d70159-da89-456b-87c0-8571faf8e673",
+            "Title": "Xbox Games Store - Xbox.com",
+            "Description": "Featured Games. Discover the hottest new games, add-ons, and more to enjoy on your Xbox 360, Kinect, Windows PC, and Windows Phone. Check out our weekly bargains and ...",
+            "DisplayUrl": "marketplace.xbox.com/en-US",
+            "Url": "http://marketplace.xbox.com/en-US"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=14&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "c71c5af8-a863-4276-ad47-63435f60f3c8",
+            "Title": "xbox 360 | eBay - Electronics, Cars, Fashion, Collectibles ...",
+            "Description": "Find great deals on eBay for xbox 360 and xbox 360 console. Shop with confidence.",
+            "DisplayUrl": "www.ebay.com/sch/i.html?_nkw=xbox+360",
+            "Url": "http://www.ebay.com/sch/i.html?_nkw=xbox+360"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=15&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "29704b2f-f494-4297-9f08-06ee80c03018",
+            "Title": "Xbox One Launch Markets Confirmed",
+            "Description": "Today we’re providing an update to our launch plans for Xbox One. At Xbox, our goal is to provide the best games and entertainment experience possible ...",
+            "DisplayUrl": "news.xbox.com/2013/08/xbox-one-confirmed-markets",
+            "Url": "http://news.xbox.com/2013/08/xbox-one-confirmed-markets"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=16&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "5225e357-8d21-499b-b57e-cd8116d4d746",
+            "Title": "xbox at Target - Target : Expect More. Pay Less.",
+            "Description": "Average rating for Xbox Live 1600 Points Card (Xbox 360): 5 stars. see all (1) reviews for Xbox Live 1600 Points Card (Xbox 360) add to ...",
+            "DisplayUrl": "www.target.com/s/xbox",
+            "Url": "http://www.target.com/s/xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=17&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "d80f593c-9be5-4664-976c-ce791046ebce",
+            "Title": "Xbox Cheats and Cheat Codes from CheatCodes.com",
+            "Description": "Xbox 360; Xbox; PS3; PS2; Wii; PC; Facebook; PSP; DS; 3DS; iPhone; More... Other Video Game Systems. Android; Wii U; iPad; PS Vita; PlayStation (PSX) GameCube; Game ...",
+            "DisplayUrl": "cheatcodes.com/xbox",
+            "Url": "http://cheatcodes.com/xbox/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=18&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "3d4b82ca-d325-4440-b6c8-e008821e1088",
+            "Title": "Introducing Season Pass Guarantee: Buy a Season Pass on Xbox 360 ...",
+            "Description": "Season Pass, Xbox 360, Xbox One, Activision, Call of Duty: Ghosts, Call of Duty, Electronic Arts, Battlefield 4, Ubisoft",
+            "DisplayUrl": "news.xbox.com/2013/08/xbox-one-season-pass-program",
+            "Url": "http://news.xbox.com/2013/08/xbox-one-season-pass-program"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=19&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "0592fcbb-6b38-456c-bdaf-2276a4657c60",
+            "Title": "Amazon.com: Xbox 360: Video Games",
+            "Description": "Minecraft - Xbox 360 by Microsoft - Xbox 360 (ESRB Rating: Everyone 10+) Edition Price New Used; Standard Order in the next 34 hours to get it by Monday, Aug 19.",
+            "DisplayUrl": "www.amazon.com/Xbox-360-Games/b?ie=UTF8&node=14220161",
+            "Url": "http://www.amazon.com/Xbox-360-Games/b?ie=UTF8&node=14220161"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=20&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "dd21743d-0bc8-4b79-9496-af3f9436dabc",
+            "Title": "Xbox 360, Xbox 360 Games - GameSpot.com - Video Game Reviews ...",
+            "Description": "Xbox 360 - GameSpot is your source for Xbox 360, Xbox Live, and Kinect game reviews, cheats, news, movies, previews, and walkthroughs.",
+            "DisplayUrl": "www.gamespot.com/xbox360/index.html",
+            "Url": "http://www.gamespot.com/xbox360/index.html"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=21&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "9ba7360e-fe0e-4956-ba59-904d5b6fbcf7",
+            "Title": "Game Reviews at IGN - Video Games, Wikis, Cheats, Walkthroughs ...",
+            "Description": "Xbox 360 PS3 PS4 PC Wii Wii U 3DS DS Vita PSP iPhone iPad Android Xbox. Game Boy Game Boy Advance Nintendo 64 Mac GameCube Dreamcast PlayStation PlayStation 2 N-Gage ...",
+            "DisplayUrl": "www.ign.com/games/reviews?platformSlug=xbox",
+            "Url": "http://www.ign.com/games/reviews?platformSlug=xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=22&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "342906de-eb9c-479c-8fe0-680e545eea28",
+            "Title": "Xbox 360 Games, Wikis, Cheats, News, Reviews & Videos - IGN",
+            "Description": "IGN is the leading site for Xbox 360 and Kinect games with expert reviews, news, previews, game trailers, cheat codes, wiki guides & walkthroughs",
+            "DisplayUrl": "www.ign.com/xbox-360",
+            "Url": "http://www.ign.com/xbox-360"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=23&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "dba93b69-d492-4880-b3a9-505b7e2fe03e",
+            "Title": "Xbox Cheats, Reviews, FAQs, Message Boards, and More - GameFAQs",
+            "Description": "3DS DS iPhone PC PS3 PS4 PSP Vita Wii U Xbox 360 Xbox One More Systems . Android; Ouya; Arcade; PlayStation; Dreamcast; PlayStation 2; Game Boy Advance; Saturn ...",
+            "DisplayUrl": "www.gamefaqs.com/xbox",
+            "Url": "http://www.gamefaqs.com/xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=24&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "2f96b022-806f-46ce-9e81-4d51287e93b9",
+            "Title": "Microsoft Xbox 360: Games and console reviews and news - CNET.com",
+            "Description": "A year after introducing Kinect, Microsoft used this year\u0027s E3 press conference to show how it\u0027s integrating its motion-capture console add-on to Xbox Live ...",
+            "DisplayUrl": "www.cnet.com/xbox-360",
+            "Url": "http://www.cnet.com/xbox-360/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=25&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "844994e4-15c3-490f-aa61-b1aa895fbeb7",
+            "Title": "The Official Xbox Channel - YouTube",
+            "Description": "Get all of your Xbox 360, Xbox LIVE and Kinect videos here, plus videos of your favorite games like Halo 4, Gears of War Judgment, Dance Central 3, and more!...",
+            "DisplayUrl": "www.youtube.com/user/xbox",
+            "Url": "http://www.youtube.com/user/xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=26&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "1991a04b-ac79-4d54-9598-f4a8dd9122eb",
+            "Title": "xboxone - GameSpot.com",
+            "Description": "The Xbox One is the next generation successor to the Xbox 360 that was revealed on May 21, 2013 .",
+            "DisplayUrl": "www.gamespot.com/xboxone",
+            "Url": "http://www.gamespot.com/xboxone/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=27&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "5ac27c01-f81a-4472-8288-4d7a527b263d",
+            "Title": "All Games - Xbox.com",
+            "Description": "Minecraft: Xbox 360 Edition. 948,733. 5/9/2012",
+            "DisplayUrl": "marketplace.xbox.com/en-US/Games/All",
+            "Url": "http://marketplace.xbox.com/en-US/Games/All"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=28&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "904d40ef-8fe1-4d9c-aa23-90a94fbaebc4",
+            "Title": "Xbox (XB) Menu - Video Game Cheats, Codes, Cheat Codes, Reviews ...",
+            "Description": "The best selection of Xbox video game cheats, codes, cheat codes, reviews, previews, ... Xbox 360; PS3; PC; NEW Xbox One. NEW PS4. Wii U; 3DS; Vita; Wii; DS; PSP; PS2 ...",
+            "DisplayUrl": "www.cheatcc.com/xb/xboxmenu.html",
+            "Url": "http://www.cheatcc.com/xb/xboxmenu.html"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=29&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "1a89ba6f-3772-4323-a9a9-cf804acc58d1",
+            "Title": "Xbox Games: Free Shipping on Xbox 360 Video Games - Best Buy",
+            "Description": "Free Shipping on Xbox games at Best Buy. Choose from a huge selection of video games for the Xbox 360 online at BestBuy.com.",
+            "DisplayUrl": "www.bestbuy.com/site/Xbox-360/Xbox-360-Video-Games/abcat0701002.c?...",
+            "Url": "http://www.bestbuy.com/site/Xbox-360/Xbox-360-Video-Games/abcat0701002.c?id=abcat0701002"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=30&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "a4f86b6b-f079-4475-8aab-6be85a430235",
+            "Title": "Xbox 360 & Xbox Forums",
+            "Description": "The Largest Xbox Message Boards on the Internet. Xbox games, Xbox Cheats, Xbox Codes, Xbox Live, Xbox Reviews, Xbox News, etc.",
+            "DisplayUrl": "www.teamxbox.com",
+            "Url": "http://www.teamxbox.com/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=31&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "4981c2bf-379e-4429-ac77-8f0338fefa0b",
+            "Title": "Xbox 360, Kinect, and Accessories - Xbox.com",
+            "Description": "If you have questions about connecting an accessory or device to your Xbox 360 console, find the information you’re looking for using the links on this page.",
+            "DisplayUrl": "support.xbox.com/browse?product=xbox-360",
+            "Url": "http://support.xbox.com/browse?product=xbox-360"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=32&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "99794673-13d4-41c5-90ae-08997ae81b88",
+            "Title": "Xbox Cheats, Xbox cheats, walkthroughs and codes",
+            "Description": "Xbox. Xbox One; Xbox 360; Xbox; Nintendo. Wii; Wii U; 3 DS; Nintendo DS; Nintendo 64; Gameboy Advance; Gameboy; GameCube; SNES; Mobile. iPhone / iPad; Android ...",
+            "DisplayUrl": "www.supercheats.com/xbox.htm",
+            "Url": "http://www.supercheats.com/xbox.htm"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=33&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "8e3716ef-2409-49fb-8e0a-5db02f9ee2e2",
+            "Title": "Xbox Live Rewards",
+            "Description": "As an Xbox LIVE Rewards member, you get unsurpassed entertainment choices and sweet rewards.",
+            "DisplayUrl": "rewards.xbox.com",
+            "Url": "http://rewards.xbox.com/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=34&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "af58875b-4cc9-434c-bbe5-67656bebcb7e",
+            "Title": "Xbox (XB) Video Game Cheats, Codes, Cheat Codes, Hints, Tips ...",
+            "Description": "The best and largest selection of Xbox video game cheats, Xbox video game codes, ... Xbox 360; PS3; PC; NEW Xbox One. NEW PS4. Wii U; 3DS; Vita; Wii; DS; PSP; PS2 ...",
+            "DisplayUrl": "www.cheatcc.com/xb/index.html",
+            "Url": "http://www.cheatcc.com/xb/index.html"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=35&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "9afa2ce4-4833-458b-a636-b66d81106821",
+            "Title": "Xbox - Neoseeker",
+            "Description": "A database of xbox games with cheats, guides, reviews, screenshots and more!",
+            "DisplayUrl": "www.neoseeker.com/Games/Xbox",
+            "Url": "http://www.neoseeker.com/Games/Xbox/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=36&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "ae7017ed-c657-42da-917f-914d88e79198",
+            "Title": "Xbox | Joystiq",
+            "Description": "Microsoft\u0027s Xbox One will include the Season Pass Guarantee, a program that carries participating Xbox 360 season pass content to the Xbox One, for free, ...",
+            "DisplayUrl": "www.joystiq.com/xbox",
+            "Url": "http://www.joystiq.com/xbox/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=37&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "9d65c68c-7dfb-496f-b525-9d16b030b4ac",
+            "Title": "Xbox - Timeline | Facebook",
+            "Description": "Why I’m Excited about Online Gaming with Xbox One, Xbox, Xbox One, Major Nelson, Live, Xbox Live, Matchmaking, Game DVR, Enforcement, Community.",
+            "DisplayUrl": "https://www.facebook.com/xbox/app_214658275305600",
+            "Url": "https://www.facebook.com/xbox/app_214658275305600"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=38&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "391d4cb9-ae73-43ef-a380-5951515222d3",
+            "Title": "Xbox Cheats, Xbox Video Game Cheats, Xbox Cheat, Cheats for Xbox ...",
+            "Description": "Visit GamesRadar.com for the latest Xbox cheats, PS3 cheats and PS2 cheat codes. We have tons of up to date video game cheats for Xbox 360 and Nintendo Wii cheat codes.",
+            "DisplayUrl": "www.gamesradar.com/xbox/cheats",
+            "Url": "http://www.gamesradar.com/xbox/cheats/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=39&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "e13221dd-cf2e-4699-a818-cf299d183f7e",
+            "Title": "Xbox Games List (Xbox)",
+            "Description": "Xbox 360 FAQ. Xbox FAQ. Hardware Reviews. Hardware Articles. Screenshots. Manufacturers. Xbox Community. TXBase. Xbox Forums. Xbox Chatroom. Reader Articles. Reader ...",
+            "DisplayUrl": "games.teamxbox.com/index/xbox",
+            "Url": "http://games.teamxbox.com/index/xbox/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=40&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "6658a522-a52c-43fa-9f5c-5581274b7e43",
+            "Title": "My Account - Xbox.com",
+            "Description": "Xbox 360 Download Queue Transfer Content Licenses Manage Xbox Music Devices Download History. Settings & Preferences Change Password Change Gamertag Contact ...",
+            "DisplayUrl": "https://live.xbox.com/account",
+            "Url": "https://live.xbox.com/account"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=41&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "b7b2c23d-2b20-4e06-b714-012f1118f459",
+            "Title": "Xbox Articles on Engadget",
+            "Description": "Xbox 360 strikes live TV deal with Time Warner Cable, promises \u0027up to 300 of the most popular channels\u0027 later this summer",
+            "DisplayUrl": "www.engadget.com/tag/xbox",
+            "Url": "http://www.engadget.com/tag/xbox/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=42&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "ec9d2fee-fa0a-44dd-96a7-2978f2da7b77",
+            "Title": "Xbox & Kinect News: The Future of Gaming and Entertainment",
+            "Description": "Microsoft is making big news with the world premiere of Kinect for Xbox 360. Find out about the future of controller-free gaming and entertainment through our ...",
+            "DisplayUrl": "www.microsoft.com/en-us/news/presskits/xbox",
+            "Url": "http://www.microsoft.com/en-us/news/presskits/xbox/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=43&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "9e256d59-1188-4ec4-9f1b-007e27da31fe",
+            "Title": "Xbox - Request Repair",
+            "Description": "An online repair request is the fastest way to get a working Xbox 360 console. Follow the steps on this site to submit a repair request.",
+            "DisplayUrl": "service.xbox.com",
+            "Url": "http://service.xbox.com/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=44&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "d54a309a-b47e-4525-9976-691322e94b8d",
+            "Title": "Xbox 360 Games - Buy New and Used Xbox Video Games – www.gamefly.com",
+            "Description": "Buy Xbox 360 games, both new and used. See new releases and video of games that are coming soon. Start now for only $5.95 or try GameFly for free",
+            "DisplayUrl": "www.gamefly.com/Store/xbox-360",
+            "Url": "http://www.gamefly.com/Store/xbox-360/"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=45&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "7a6dc883-38f9-4dc7-96cd-6f5409c6f049",
+            "Title": "Xbox | Facebook",
+            "Description": "Xbox. 22,059,455 likes · 234,162 talking about this. Welcome to the official US Xbox Fan page. Jump In. We encourage you to post comments. We monitor the page.",
+            "DisplayUrl": "https://www.facebook.com/xbox",
+            "Url": "https://www.facebook.com/xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=46&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "94da138f-90b7-467e-bdeb-a4185d1e7ec2",
+            "Title": "Xbox - Microsoft Home Page | Devices and Services",
+            "Description": "Nicholas Puleo: Xbox: I own and operate www.co-optimus.com. The site is dedicated to cooperative gaming, and every month we run events with both the Games for Windows ...",
+            "DisplayUrl": "https://mvp.support.microsoft.com/communities/mvp.aspx?product=1&...",
+            "Url": "https://mvp.support.microsoft.com/communities/mvp.aspx?product=1&competency=Xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=47&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "d1c014f4-be20-428c-bfa9-5e8dcb788271",
+            "Title": "Xbox 360 Cheats, Reviews, FAQs, Message Boards, and More - GameFAQs",
+            "Description": "For the Xbox 360, GameFAQs has game information and a community message board for game discussion.",
+            "DisplayUrl": "www.gamefaqs.com/xbox360",
+            "Url": "http://www.gamefaqs.com/xbox360"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=48&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "c4a7f6f3-eb0e-4f27-ae10-502044b12ee1",
+            "Title": "Xbox | CrunchBase Profile",
+            "Description": "Xbox 360. Xbox Kinect. i\u0027m Initiative. Xbox edit. Xbox is a sixth generation video game console produced by Microsoft. It was Microsoft’s first foray into the ...",
+            "DisplayUrl": "www.crunchbase.com/product/xbox",
+            "Url": "http://www.crunchbase.com/product/xbox"
+        },
+        {
+            "__metadata": {
+                "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=49&$top=1",
+                "type": "WebResult"
+            },
+            "ID": "c8ff54ad-0496-4314-aefd-f77f6cb3d4a7",
+            "Title": "Xbox360, Xbox 360 Cheats, Xbox 360 Cheat Codes, Cheats for Xbox ...",
+            "Description": "Visit GamesRadar.com for the latest Xbox cheats, PS3 cheats and PS2 cheat codes. We have tons of up to date video game cheats for Xbox 360 and Nintendo Wii cheat codes.",
+            "DisplayUrl": "www.gamesradar.com/xbox-360/cheats",
+            "Url": "http://www.gamesradar.com/xbox-360/cheats/"
+        }
+    ],
+    "__next": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027Xbox\u0027&$skip=50"
+}}
