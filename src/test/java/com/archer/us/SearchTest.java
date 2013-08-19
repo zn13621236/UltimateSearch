@@ -2,6 +2,7 @@ package com.archer.us;
 
 import com.archer.us.service.EmailExtractorService;
 import com.archer.us.service.bing.BingSearchService;
+import com.archer.us.service.bing.Result;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +24,9 @@ public class SearchTest {
 
     @Test
     public void test() {
-        Set<String> urls = bingSearchService.search("seattle roofing", 3);
-        System.out.println(emailExtractorService.extractEmail(urls));
+        Set<Result> results = bingSearchService.search("seattle roofing", 3);
+        emailExtractorService.extractEmail(results);
+//        System.out.println();
 //        extractEmail("a info@real.com b");
     }
 

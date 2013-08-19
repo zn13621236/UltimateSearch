@@ -1,5 +1,6 @@
 package com.archer.us.service;
 
+import com.archer.us.service.bing.Result;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -107,7 +108,7 @@ public class SearchServiceImpl implements SearchService {
     }
 
     @Override
-    public Set<String> search(String query, int page) {
+    public Set<Result> search(String query, int page) {
         return null;
     }
 

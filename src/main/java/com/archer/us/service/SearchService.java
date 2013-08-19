@@ -1,5 +1,7 @@
 package com.archer.us.service;
 
+import com.archer.us.service.bing.Result;
+
 import java.util.Set;
 
 public interface SearchService {
@@ -7,5 +9,5 @@ public interface SearchService {
 
     void doRecursiveSearch(String searchEntry);
 
-    Set<String> search(String query, int page);
+    Set<Result> search(String query, int page);
 }

@@ -45,14 +45,14 @@ public class BingSearchService implements SearchService, InitializingBean {
     }
 
     @Override
-    public Set<String> search(String query, int page) {
+    public Set<Result> search(String query, int page) {
         String tmp = url + urlEncode(query);
-        Set<String> urls = new HashSet<>();
+        Set<Result> urls = new HashSet<>();
         search(tmp, urls, page, 0);
         return urls;
     }
 
-    private void search(String url, Set<String> urls, int page, int current) {
+    private void search(String url, Set<Result> urls, int page, int current) {
         if (current > page)
             return;
         logger.info("The bing search url is {}", url);
@@ -66,7 +66,7 @@ public class BingSearchService implements SearchService, InitializingBean {
                     List<Result> results = holder.getResults().getResults();
                     if (!CollectionUtils.isEmpty(results)) {
                         for (Result result : results) {
-                            urls.add(result.getUrl());
+                            urls.add(result);
                         }
                     }
                     search(next + "&$format=json", urls, page, ++current);
